@@ -12,9 +12,5 @@ jobs:
         run: |
           node -v
           npm -v
- 
-
-      - name: make a dir
-        run: mkdir /Users/mymac/github-actions/test4
       - name: command
         run: ls 
