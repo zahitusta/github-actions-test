@@ -16,6 +16,6 @@ jobs:
       - name: make a dir
         run: mkdir test
       - name: make a dir
-        run: mkdir test
+        run: mkdir /Users/mymac/github-actions/test4
       - name: command
         run: ls 
