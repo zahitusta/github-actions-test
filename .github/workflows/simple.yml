@@ -12,5 +12,10 @@ jobs:
         run: |
           node -v
           npm -v
+ 
+      - name: make a dir
+        run: mkdir test
+      - name: make a dir
+        run: mkdir test
       - name: command
-        run: ls -a 
+        run: ls 
