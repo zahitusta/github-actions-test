@@ -12,5 +12,5 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: echoff a string
-        run: echfo "Hello, World!"
+      - name: command
+        run: ls -a 
