@@ -1,7 +1,22 @@
 name: Actions Workflow
-on:  
-  schedule:
-    - cron: "0/5 * * * *"
+on: 
+  push:
+    branches:
+      - master 
+      - 'feature/*'
+      - 'feature/**'
+      - '!feature/featC'
+  tags:
+    - v1.*
+ # paths:
+ #   - '**.js'
+  paths-ignore:
+    - 'docs/**'
+ # repository_dispatch:
+ #   types: [build]
+
+  #schedule:
+   # - cron: "0/5 * * * *"
  # push:
   pull_request:
     types:
