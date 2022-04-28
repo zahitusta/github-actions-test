@@ -6,11 +6,11 @@ on:
       - 'feature/*'
       - 'feature/**'
       - '!feature/featC'
-  tags:
+    tags:
     - v1.*
  # paths:
  #   - '**.js'
-  paths-ignore:
+    paths-ignore:
     - 'docs/**'
  # repository_dispatch:
  #   types: [build]
